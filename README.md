@@ -26,15 +26,13 @@ Increase the maximum number of rows to display the entire DataFrame.
 #Developed by: RANJANI A
 #Register Number: 212223230170
 
-import pandas as pd
-df = pd.read_csv('nba.csv')
-print(df.head(10))
-print(df.tail())
-print("Number of rows:",len(df.axes[0]))
-print("Number of columns:",len(df.axes[1]))
+with open ("text1.txt",'r') as fp:
+     msg1=fp.read()
+with open ("copytxt",'w') as fp1:
+     fp1.write(msg1)
 ```
 ### OUTPUT:
-![image](https://github.com/Ranjania2005/Copy-File/assets/151624950/cfd03c27-a6ff-4764-8573-9cf80f2c0daf)
+![WhatsApp Image 2024-05-11 at 13 27 25_eceb2031](https://github.com/Ranjania2005/Copy-File/assets/151624950/3210ae70-5039-4ffc-b3d1-1cefbb9f7fb1)
 
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
